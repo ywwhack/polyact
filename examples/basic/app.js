@@ -1,5 +1,5 @@
-import Polyact from '../lib'
-import data from './data.json'
+import Polyact from '../../lib'
+import data from '../data.json'
 
 const map = new AMap.Map('app', {
   zoom: 14,
