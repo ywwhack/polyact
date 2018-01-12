@@ -2,7 +2,7 @@
   "name": "polyact",
   "version": "0.0.1",
   "description": "amap polygons render engine",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "example": "examples",
     "lib": "lib"
