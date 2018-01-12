@@ -13,6 +13,7 @@
   "author": "yww7289@163.com",
   "license": "ISC",
   "dependencies": {
-    "geohash": "0.0.1"
+    "geohash": "0.0.1",
+    "lodash": "^4.17.4"
   }
 }
