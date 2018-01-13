@@ -49,9 +49,9 @@ options 接受一个配置配置对象，各个字段如下：
   type,
   // 渲染的数据，类型是一个数组，数组每项需包含如下字段
   /*
-    count
-    key
-    payload
+    count   该值决定热力区块颜色的深浅
+    key     某个区块的唯一标识符，polyact 内部会根据该值做 diff，进而优化渲染。如果不传，每次 render 都将全量更新
+    payload 除 count 外的其他额外数据，如果 type='grid'，该值为 geohash 或者网格四个顶点的坐标数组
   */
   data,
   // 热力图对应的颜色区间，数据越大，落到越后面的颜色区间

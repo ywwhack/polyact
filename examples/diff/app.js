@@ -16,6 +16,10 @@ function renderGrid (data) {
   })
 }
 
+data.forEach(function addKey (item) {
+  item.key = item.payload
+})
+
 renderGrid(data)
 
 // 使用 dragging 来模仿多次 render 时有大量区域重合的场景
