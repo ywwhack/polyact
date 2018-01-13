@@ -35,7 +35,7 @@ polyact.render({
   }
 ```
 
-详细用法参见 [examples](./examples/app.js)
+详细用法参见 [examples](./examples)
 
 ### API
 
